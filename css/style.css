@@ -79,9 +79,11 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.3s;
 }
 .info .button:hover{
     cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 .info #cancel {
   margin: 25px 0;
